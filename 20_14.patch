@@ -1,0 +1,56 @@
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/compiler.xml	(revision 156abf71e7c3a65009e0e48c727f3c882188e3fa)
++++ .idea/compiler.xml	(date 1561119250973)
+@@ -6,6 +6,7 @@
+         <sourceOutputDir name="target/generated-sources/annotations" />
+         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+         <outputRelativeToContentRoot value="true" />
++        <module name="Firist" />
+         <module name="FiristGIt" />
+       </profile>
+     </annotationProcessing>
+Index: src/main/java/First.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/First.java	(revision 156abf71e7c3a65009e0e48c727f3c882188e3fa)
++++ src/main/java/First.java	(date 1561119240315)
+@@ -2,5 +2,6 @@
+     public static void main(String[] args) {
+         System.out.println(11111111);
+         System.out.println();
++        System.out.println("11111");
+     }
+ }
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision 156abf71e7c3a65009e0e48c727f3c882188e3fa)
++++ .idea/misc.xml	(date 1561119250959)
+@@ -1,6 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ExternalStorageConfigurationManager" enabled="true" />
++  <component name="JavaScriptSettings">
++    <option name="languageLevel" value="ES6" />
++  </component>
+   <component name="MavenProjectsManager">
+     <option name="originalFiles">
+       <list>
+@@ -8,7 +11,7 @@
+       </list>
+     </option>
+   </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8.0_202" project-jdk-type="JavaSDK">
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+     <output url="file://$PROJECT_DIR$/out" />
+   </component>
+ </project>
+\ No newline at end of file
